@@ -160,7 +160,7 @@ Windows:
 ### Install dependencies
 
 ```bash
-pip install -r requirements.txt
+pip install selenium && pip install requests
 ```
 
 ---
@@ -172,12 +172,6 @@ The project requires:
 ```txt
 selenium
 requests
-```
-
-Generate the requirements file if needed:
-
-```bash
-pip freeze > requirements.txt
 ```
 
 ---
